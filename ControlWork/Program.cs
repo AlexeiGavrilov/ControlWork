@@ -1,2 +1,40 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+string[] StringArray = new string[] { "cat", "dog", "lesson", "snow", "son", "^_^", "(O_o)", "-10", "i5" };
