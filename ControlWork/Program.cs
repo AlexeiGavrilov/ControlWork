@@ -11,6 +11,21 @@
     return count;
 }
 
+void CreateArrayCorrectElements(string[] array1, string[] array2)
+{
+    int k = 0;
+    for (int i = 0; i < array1.Length; i++)
+    {
+
+        if (array1[i].Length <= 3)
+        {
+            array2[k] = array1[i];
+            k++;
+        }
+
+
+    }
+}
 
 string[] StringArray = new string[] { "cat", "dog", "lesson", "snow", "son", "^_^", "(O_o)", "-10", "i5" };
 
