@@ -27,6 +27,19 @@ void CreateArrayCorrectElements(string[] array1, string[] array2)
     }
 }
 
+void PrintStringArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+
+}
+
 string[] StringArray = new string[] { "cat", "dog", "lesson", "snow", "son", "^_^", "(O_o)", "-10", "i5" };
 
 string[] FinalArray = new string[CheckTheString(StringArray)];
+
+CreateArrayCorrectElements(StringArray, FinalArray);
+
+PrintStringArray(FinalArray);
